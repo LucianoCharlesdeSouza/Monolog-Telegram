@@ -3,4 +3,7 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
 
 # Criando seu bot
 1. Na pesquisa global do Telegram, digite @BotFather,
-- Agora, estando no Pai dos Bot's voce irá digitar /newbot
+    - Agora, estando no Pai dos Bot's voce irá digitar /newbot
+2. First list item
+    - First nested list item
+    - Second nested list item
