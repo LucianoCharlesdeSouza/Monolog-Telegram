@@ -38,7 +38,6 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
 }
 ```
     
-
-# Pronto, agora basta pegarmos o token e o chat id e passarmos no aruqivo config.php e rodarmos o seguinte comando no terminal
+5. Pronto, estando dentro da pasta do projeto, basta pegarmos o token e o chat id e passarmos no arquivo config.php e rodarmos o seguinte comando no terminal, 
 ```composer install```
 
