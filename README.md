@@ -8,7 +8,8 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
     - Próximo passo será pedido um nome de usuário, **DEVERÁ TERMINAR COM A PALAVRA** bot ( Ex: meubot, meu_bot )
     - Você receberá um token ( 109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T )
     - E um link para a [API do TELEGRAM](https://core.telegram.org/bots/api)
-2. Em posse do token voce podera acessar o link da api da seguinte forma,
+2. Antes de clicar no links fornecido, crie um grupo no Telegram e adicione o bot recem criado a este grupo    
+3. Em posse do token voce podera acessar o link da api da seguinte forma,
     - https://api.telegram.org/bot<token>/METHOD_NAME
     - Trocando <token> pelo token recem recebido do BotFather e METHOD_NAME por getMe,
     - Tendo uma url como essa https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getMe
@@ -17,10 +18,20 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
 {
     "ok": true,
     "result": {
-        "id": 902172117,
+        "id": 409125119,
         "is_bot": true,
-        "first_name": "LogTelegramByMiniBlog",
-        "username": "miniblogLaravelbot"
+        "first_name": "LogTelegram",
+        "username": "logtelegrambot"
     }
 }
 ```
+    - Alterando agora o parametro METHOD_NAME da url atual para getUpdates, ficando https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getUpdates,veremos mais informações.
+    - A informação que precisaremos será o id do chat
+```
+"chat": {
+    "id": -1001266140188,
+    "title": "logtelegrambot",
+    "type": "supergroup"
+},
+```
+    - Procure pelo id do chat que mais se repete (pois pode ser que haja mudanças se voce ficar trocando os previlegios do grupo e do bot)
