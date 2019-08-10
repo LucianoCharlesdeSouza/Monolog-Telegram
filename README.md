@@ -13,8 +13,7 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
     - Trocando <token> pelo token recem recebido do BotFather e METHOD_NAME por getMe,
     - Tendo uma url como essa https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getMe
     - Feito isso, poderá ser visto os dados de seu bot, como abaixo
-    - ```
-{
+    - ```{
 "ok": true,
 "result": {
 "id": 902172117,
