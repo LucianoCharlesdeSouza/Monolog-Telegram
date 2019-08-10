@@ -10,7 +10,7 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
     - E um link para a [API do TELEGRAM](https://core.telegram.org/bots/api)
 2. Antes de clicar no links fornecido, crie um grupo no Telegram e adicione o bot recem criado a este grupo    
 3. Em posse do token voce podera acessar o link da api da seguinte forma,
-    - https://api.telegram.org/bot<token>/METHOD_NAME
+    - ```https://api.telegram.org/bot<token>/METHOD_NAME```
     - Trocando <token> pelo token recem recebido do BotFather e METHOD_NAME por getMe,
     - Tendo uma url como essa https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getMe
     - Feito isso, poderá ser visto os dados de seu bot, como abaixo
