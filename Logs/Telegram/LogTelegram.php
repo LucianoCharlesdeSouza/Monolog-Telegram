@@ -10,7 +10,7 @@ class LogTelegram extends TelegramBotHandler
      */
     public function write(array $record): void
     {
-        $message = "[{$record['level_name']}] - data: {$record['datetime']->format('d/m/Y H:i:s')} - mensagem: {$record['message']}";
+        $message = "[{$record['level_name']}] - data: {$record['datetime']->format('d/m/Y H:i:s')} - mensagem: {$record['message']->getMessage()}";
         if (isset($record['context']['exception'])) {
             $message .= "- Arquivo: {$record['context']['exception']->getFile()} - Linha: {$record['context']['exception']->getLine()}";
         }
@@ -25,12 +25,12 @@ class LogTelegram extends TelegramBotHandler
      * @return array
      * @throws \Exception
      */
-    public function records($level, $message, $exception): array
+    public function records($level, $exception): array
     {
         return [
             'level_name' => $level,
             'datetime'   => new \DateTime,
-            'message'    => utf8_encode($message),
+            'message'    => $exception,
             'context'    => ['exception' => $exception]
         ];
     }
