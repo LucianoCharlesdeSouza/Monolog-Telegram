@@ -38,7 +38,7 @@ try {
     /**
      * Vamos enviar os erros ao TELEGRAM
      */
-    $telegram->write($telegram->records('ERROR', $e->getMessage(), $e));
+    $telegram->write($telegram->records('ERROR', $e));
 
     /**
      * Mostramos um erro personalizado ao usuario final
