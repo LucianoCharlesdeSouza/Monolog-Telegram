@@ -1,7 +1,7 @@
 <?php
 define('TELEGRAM',
     [
-        'apiKey' => "902172117:AAHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-A",
-        'chatId' => "-1001266140188"
+        'apiKey' => "000002117:BBBB64644cvvnbvnbvnnghfRGGRT-W",
+        'chatId' => "-1234567891012"
     ]
 );
