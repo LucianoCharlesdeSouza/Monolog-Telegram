@@ -25,8 +25,10 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
     }
 }
 ```
+    
     - Alterando agora o parametro METHOD_NAME da url atual para getUpdates, ficando https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getUpdates,veremos mais informações.
     - A informação que precisaremos será o id do chat
+    
 ```
 "chat": {
     "id": -1001266140188,
@@ -34,4 +36,5 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
     "type": "supergroup"
 },
 ```
+
     - Procure pelo id do chat que mais se repete (pois pode ser que haja mudanças se voce ficar trocando os previlegios do grupo e do bot)
