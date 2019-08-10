@@ -5,4 +5,6 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
 1. Na pesquisa global do Telegram, digite @BotFather,
     - Agora, estando no Pai dos Bot's voce irá digitar /newbot
     - Será solicitado um nome para seu bot ( digite e dê enter )
-    - Próximo passo será pedido um nome de usuário ( **DEVERÁ TERMINAR COM A PALAVRA** bot )
+    - Próximo passo será pedido um nome de usuário, **DEVERÁ TERMINAR COM A PALAVRA** bot ( Ex: meubot, meu_bot )
+    - Você receberá um token ( 109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T )
+    - E um link para a [API do TELEGRAM](https://core.telegram.org/bots/api) 
