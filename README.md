@@ -12,7 +12,7 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
 3. Em posse do token voce podera acessar o link da api da seguinte forma,
     - ```https://api.telegram.org/bot<token>/METHOD_NAME```
     - Trocando <token> pelo token recem recebido do BotFather e METHOD_NAME por getMe,
-    - Tendo uma url como essa https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getMe
+    - Tendo uma url como essa ```https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getMe```
     - Feito isso, poderá ser visto os dados de seu bot, como abaixo
 ```
 {
@@ -28,6 +28,7 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
     
 4. Alterando agora o parametro METHOD_NAME da url atual para getUpdates, ficando  ```https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getUpdates```,veremos mais informações.
     - A informação que precisaremos será o id do chat
+    - Procure pelo id do chat que mais se repete (pois pode ser que haja mudanças se voce ficar trocando os previlégios do grupo e do bot)
 ```
 {"chat": {
         "id": -1001266140188,
@@ -37,6 +38,6 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
 }
 ```
     
-    - Procure pelo id do chat que mais se repete (pois pode ser que haja mudanças se voce ficar trocando os previlegios do grupo e do bot)
+
     
 
