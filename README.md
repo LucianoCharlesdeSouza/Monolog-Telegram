@@ -26,7 +26,7 @@ Exemplo de uso da classe LogTelegram, onde  a mesma faz o envio dos logs para um
 }
 ```
     
-    - Alterando agora o parametro METHOD_NAME da url atual para getUpdates, ficando https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getUpdates,veremos mais informações.
+4. Alterando agora o parametro METHOD_NAME da url atual para getUpdates, ficando https://api.telegram.org/bot109152333:XSHiotkf57Q_Bw7RidyojTQ54tfbJZkcq-T/getUpdates,veremos mais informações.
     - A informação que precisaremos será o id do chat
     
 
